@@ -6,10 +6,9 @@
 // smart pointers? google what that is.
 // allow to import information using an outside file.
 
-#include "classes.h"
 #include "functions.h"
 
 int main() {
     Menu();
     return 0;
-}
+};

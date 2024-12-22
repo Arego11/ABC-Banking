@@ -2,12 +2,10 @@
 #include <iostream>
 #include <filesystem>
 #include <fstream>
-#include <filesystem>
 #include <algorithm>
 
 using namespace std;
 
-//string folderPath = "/Users/liner/Documents/cpp training/BankAccount.cpp/Accounts";
 
 void newAccount(vector<BankAccount>& accounts, const string& folderPath) {
     string name;

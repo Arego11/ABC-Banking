@@ -1,6 +1,10 @@
 #include "classes.h"
 #include <fstream>
 #include <iostream>
+#include <iostream>
+#include <fstream>
+#include <filesystem>
+using namespace std;
 
 int BankAccount::nextAccountNumber = 0;
 
@@ -19,3 +23,29 @@ int BankAccount::getScore() const { return score; }
 double BankAccount::getBalance() const { return balance; }
 string BankAccount::GetName() const { return name; }
 int BankAccount::getAccountNumber() const { return accountNumber; }
+
+void BankAccount::giveInformation() const {
+    cout << "\nAccount Number: " << accountNumber
+         << "\nAccount Name: " << name
+         << "\nAccount Balance: $" << balance
+         << "\nAccount Score: " << score
+         << "\n-----------------------------" << "\n" << endl;
+}
+
+void BankAccount::saveToFile(const string& folderPath) const {
+    if (!filesystem::exists(folderPath)) {
+        filesystem::create_directory(folderPath);
+    }
+    string filePath = folderPath + "/Account_" + to_string(accountNumber) + ".txt";
+    ofstream outFile(filePath);
+    if (outFile.is_open()) {
+        outFile << "Account Name: " << name << '\n'
+                << "Account Number: " << accountNumber << '\n'
+                << "Score: " << score << '\n'
+                << "Balance: $" << balance << '\n';
+        outFile.close();
+        cout << "Account details saved to " << filePath << ".\n";
+    } else {
+        cerr << "Error: Could not create file " << filePath << ".\n";
+    }
+}
