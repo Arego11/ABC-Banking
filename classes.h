@@ -20,6 +20,10 @@ public:
 
     BankAccount();
 
+    void saveToFile(const std::string& filename) const;
+
+    void giveInformation() const;
+
     void setName(const string &name);
 
     void setScore(int score);
@@ -39,10 +43,6 @@ public:
     string GetName() const;
 
     int getAccountNumber() const;
-
-    void giveInformation() const;
-
-    void saveToFile(const string &folderPath) const;
 
     static BankAccount loadFromFile(const string &filePath);
 

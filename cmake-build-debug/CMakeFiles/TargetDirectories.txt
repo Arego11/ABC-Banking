@@ -1,3 +1,0 @@
-/Users/liner/Documents/cpp training/BankAccount.cpp/cmake-build-debug/CMakeFiles/BankAccount_cpp.dir
-/Users/liner/Documents/cpp training/BankAccount.cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/liner/Documents/cpp training/BankAccount.cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

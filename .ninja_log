@@ -1,0 +1,16 @@
+# ninja log v5
+1	511	1734909546555641421	CMakeFiles/BankAccount_cpp.dir/main.cpp.o	f9a2e36d4b2d4bd2
+1	608	1734909546556422295	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	aa6ee7848c106526
+1	674	1734909546556097795	CMakeFiles/BankAccount_cpp.dir/functions.cpp.o	5909c2109318d950
+4	353	1734909683222572879	CMakeFiles/BankAccount_cpp.dir/main.cpp.o	d34995f573879034
+5	461	1734909683327900459	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	66ed4bf93d417c67
+4	537	1734909683405361210	CMakeFiles/BankAccount_cpp.dir/functions.cpp.o	e2e0c67049a29a28
+5	672	1734909788694720276	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	66ed4bf93d417c67
+4	612	1734909860938463052	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	66ed4bf93d417c67
+612	721	1734909861049133541	BankAccount_cpp	ef837b510f26eb20
+22	567	1734910011042013002	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	66ed4bf93d417c67
+568	666	1734910011142753006	BankAccount_cpp	ef837b510f26eb20
+3	593	1734910082128165222	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	66ed4bf93d417c67
+22	645	1734910119977120087	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	66ed4bf93d417c67
+4	440	1734910126125030044	CMakeFiles/BankAccount_cpp.dir/classes.cpp.o	66ed4bf93d417c67
+441	482	1734910126168490807	BankAccount_cpp	ef837b510f26eb20

@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/liner/Documents/cpp training/BankAccount.cpp/cmake-build-debug",
+		"build" : "/Users/liner/Documents/cpp training/BankAccount.cpp",
 		"source" : "/Users/liner/Documents/cpp training/BankAccount.cpp"
 	},
 	"version" : 
